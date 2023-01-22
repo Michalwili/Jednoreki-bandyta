@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jednoreki_bandyta</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="wrap">
+
+        <h1>JEDNORĘKI BANDYTA</h1>
+
+        <section class="game">
+            <div class="color"></div>
+            <div class="color"></div>
+            <div class="color"></div>
+        </section>
+
+        <section class="play">
+            <input type="number" placeholder="stawka" id="bid">
+            <button id="start">Zagraj!</button>
+        </section>
+
+        <section class="panel">Aktualne środki 
+            <span class="wallet">100</span>
+        </section>
+
+        <section class="score">
+            <span class="result"><br></span> Zagrałeś:
+            <span class="number"></span> gier
+            <br>
+            Wygranych: 
+            <span class="win"></span>
+            <br>
+            Przegranych: 
+            <span class="loss"></span>
+        </section>
+    </div>
+
+    <script src="Wallet.js"></script>
+    <script src="Statistics.js"></script>
+    <script src="Draw.js"></script>
+    <script src="Result.js"></script>
+    <script src="Game.js"></script>
+    <script src="main.js"></script>
+    
+</body>
+</html>
